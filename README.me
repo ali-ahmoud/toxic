@@ -1,0 +1,78 @@
+# 🚀 TOXIC-FORCE - Hydra Brute Force Automation 🔥
+
+TOXIC-FORCE is a **powerful and automated** Python script that utilizes Hydra for brute-force attacks on various protocols, including **SSH, FTP, RDP, HTTP, and SMTP**. Designed for ethical security testing, it features an interactive experience, error handling, and smart optimizations.
+
+---
+
+## 🌟 Features
+✅ Supports **SSH, FTP, RDP, HTTP, and SMTP** brute-force attacks.
+✅ **Interactive menu** for selecting protocol and inputs.
+✅ **Saves user inputs** for easy reuse.
+✅ **Auto-installs Hydra** if missing.
+✅ **CTRL + C** support for clean exit.
+✅ **Logs executed commands** for debugging.
+
+---
+
+## ⚡ Installation
+📥 Clone the repository:
+```bash
+git clone https://github.com/ali-mahmoud/toxic.git
+cd toxic-force
+```
+🛠️ Install dependencies:
+```bash
+pip install termcolor
+```
+🔍 Ensure Hydra is installed:
+```bash
+sudo apt install hydra
+```
+
+---
+
+## 🚀 Usage
+💻 Run the script:
+```bash
+python toxic_force.py
+```
+Follow the on-screen instructions to configure the attack.
+
+---
+
+## 🎯 Example Execution
+```
+🔴 TOXIC-FORCE > Select Protocol (SSH/FTP/RDP/HTTP/SMTP): SSH
+🔵 TOXIC-FORCE > Enter target IP/domain: 192.168.1.100
+🟢 TOXIC-FORCE > Enter a single username (or press Enter to use a file): admin
+🟡 TOXIC-FORCE > Enter password file path: passwords.txt
+⚡ [*] Running Hydra with command:
+hydra -t 4 -l admin -P passwords.txt 192.168.1.100 ssh
+```
+
+---
+
+## 🖼️ Preview
+![TOXIC-FORCE Preview](https://github.com/ENG-Ali-Mahmoud/toxic-force/blob/main/preview.png)
+
+---
+
+## ⚠️ Disclaimer
+🚨 **This tool is for educational and authorized security testing purposes only. Unauthorized use is strictly prohibited.**
+
+---
+
+## 📜 License
+📝 **MIT License**
+
+---
+
+## 👤 Author
+💡 **ENG Ali Mahmoud**
+
+---
+
+## 📩 Contact
+🔗 GitHub: [ENG-Ali-Mahmoud](https://github.com/ali-mahmoud)
+📧 Email: 120180908@fa-hists.edu.eg
+
